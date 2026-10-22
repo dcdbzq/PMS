@@ -1,0 +1,47 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*accounts*.json
+*admin*.txt
+.initial-admin.txt
+.local-private/
+
+# Business data, attachments, exports and backup snapshots
+data/
+attachments/
+uploads/
+backups/
+exports/
+drills/
+runtime/
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+test-results/
+playwright-report/
+*.log
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
